@@ -1,0 +1,81 @@
+Code Questions
+
+The following code questions can be answered in the language of your choice.
+We are looking for you to supply a self-sufficient environment and method for us to review, run and test your answers. Please provide instructions on how to do this.
+Additionally, please supply comments throughout your code explaining each step of your answer.
+
+// -----------------------------------------------------------------------
+
+Question #1.1
+Create a function that will generate a random hand of 5 standard playing cards from a single deck of cards.
+The hand of cards must be returned in the format: array('2c', '6d', 'as', 'jh', '10c');
+
+// -----------------------------------------------------------------------
+
+Question #1.2
+
+Create a function that will return a boolean result as to whether the hand of cards returned by the function from question 1.1 contains a 'straight' or 'straight flush'.
+For this test we are looking for as few code characters as possible (Code elegance is not required). 
+Note: This is testing your creativity for coming up with a solution - it is not expected to be easily readable or best-practice.
+
+Notes
+Aces are high AND low.
+The #10 cards are 3 characters (10h, 10c, 10s, 10d)
+Reference
+Straight : https://en.wikipedia.org/wiki/List_of_poker_hands#Straight
+Straight Flush : https://en.wikipedia.org/wiki/List_of_poker_hands#Straight_flush
+
+// -----------------------------------------------------------------------
+
+Question #1.3
+
+The given array represents the height of a series of 1x1 blocks that are stacked on top of each other.
+Water is then poured over the blocks and collects into pools between the gaps.
+
+The following image (https://i.imgur.com/riclxSE.png) is a visual example of the blocks (black) and the pooled water (blue) for the example array values defined below.
+
+Input: [0,1,0,2,1,0,1,3,1,3,2,1,0]
+Output: 7 (volume of water)
+
+Write a function that when given an array formatted similarly as above, but with different values, will calculate the total volume of water measured as 1x1 units. The array will only ever include positive integer values.
+
+// -----------------------------------------------------------------------
+
+Question #1.4
+Using an array of numeric values representing the history of stock prices on a day-to-day basis, create a class that returns what would have been the best days to buy and then sell the stock at a profit.
+• Only a single stock can be held at one time.
+• No stock is held at the start - e.g. the first action should be to buy stock.
+• Buy and sell as many times as required to maximise profits.
+
+The returned output needs to state the following data:
+• All transactions listing the numeric days and prices that stock was bought and sold.
+• The profit of each completed transaction.
+• The total profit of all transactions.
+• Note: All stocks must be sold by the end of the stock price history.
+
+As an example, using the following stock value history: 300, 250, 260, 310, 215, 280.
+Buy on day 2 @ 250, sell on day 4 @ 310, buy again on day 5 @ 215 and sell on day 6 @ 280.
+This would have returned a profit of 60 + 65 = 125. 
+
+The returned data should be within JSON object structured as follows:
+{
+  "transactions": {
+    "0": {
+      "bought": {
+        "day":"[numeric value]",
+        "value":"[numeric value]"
+      },
+      "sold": {
+        "day":"[numeric value]",
+        "value":"[numeric value]"
+      },
+      "profit":"[numeric value]",
+    },
+    ...[repeat as necessary]...
+  },
+  "total_profit":"[numeric value]"
+}
+
+The class should be able to handle any array of numeric values supplied, however, use the following values for your answer.
+
+[360, 255, 260, 230, 150, 100, 135, 265, 750, 460, 600]
