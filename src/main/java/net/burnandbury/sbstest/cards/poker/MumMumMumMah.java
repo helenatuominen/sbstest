@@ -1,6 +1,6 @@
 package net.burnandbury.sbstest.cards.poker;
 
-import java.util.stream.Stream;
+import java.util.stream.Collectors;
 
 import net.burnandbury.sbstest.cards.Card;
 import net.burnandbury.sbstest.cards.Hand;
@@ -37,9 +37,13 @@ public class MumMumMumMah {
 //	RaiseItBabyStayWithMe
 //	ILoveIt
 	
+//	Love game intuition, play the cards with spades to start
+//	And after he's been hooked, I'll play the one that's on his heart
+	
+	
 	
 	public static boolean isFlush(Hand hand) {
-		String  = hand.stream().map(c -> c.suit().textValue()).collect(Collectors.joining());
-		return );
+		String handy = hand.stream().map(c -> c.suit().textValue()).collect(Collectors.joining());
+		return handy.matches("^" + new String( new byte[] { handy.getBytes()[0] }));
 	}
 }
