@@ -77,7 +77,7 @@ class StockHistory {
 	
 	/**
 	 * Given an array of stock values representing a series of dates,
-	 * provide a TransactionHistory representing the linear transactions with maxiumum profit.
+	 * provide a TransactionHistory representing the linear transactions with maximum profit.
 	 * 
 	 * @param the series of stock values.
 	 * @return the maximised profit TransactionHistory
