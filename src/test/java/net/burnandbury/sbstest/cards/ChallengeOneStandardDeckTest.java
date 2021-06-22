@@ -18,10 +18,10 @@ import net.burnandbury.sbstest.ConsoleLogging;
  * @author Helena Tuominen
  *
  */
-public class StandardDeckTest {
+public class ChallengeOneStandardDeckTest {
 
 	Deck deck;
-	static final Logger logger = ConsoleLogging.getLogger(StandardDeckTest.class);
+	static final Logger logger = ConsoleLogging.getLogger(ChallengeOneStandardDeckTest.class);
 	
 	@BeforeEach
 	public void createDeck() {
@@ -32,7 +32,7 @@ public class StandardDeckTest {
 	public void testCleanDeckContents() {
 		logger.info("Testing a new clean deck.");
 
-		Hand hand = deck.deal(5);
+		var hand = deck.deal(5);
 		logger.info("First hand drawn without shuffle: " + hand.toString());
 
 		assertFalse(deck.containsAll(hand), "Drawn cards should be removed from the deck.");
@@ -47,7 +47,7 @@ public class StandardDeckTest {
 		logger.info("Testing a new shuffled deck.");
 		
 		deck.shuffle();
-		List<Card> hand = deck.deal(5);
+		var hand = deck.deal(5);
 
 		logger.info("First hand drawn after shuffle: " + hand.toString());
 		 
