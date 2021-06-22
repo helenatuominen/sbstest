@@ -1,6 +1,8 @@
-##SBS Coding Smackdown, Java Edition
+##SBS Coding Questions, Java
 Hi there! For development I've used the following tools, please make sure you have
-an appropriate build environment setup.
+an appropriate build environment setup. The questions are present in this repo
+ [sbs_tech_assessment_code_only.txt](src/main/java/net/burnandbury/sbstest/doc-files/sbs_tech_assessment_code_only.txt)
+
 
 - JDK 16.0.1
 - Maven 3.8.1
@@ -22,6 +24,7 @@ a deck of cards. Abstractions were made to allow future flexibility of playing U
 Code:
 ```
 - net.burnandbury.sbstest.cards.*
+```
 
 Unit Tests:
 ```
@@ -40,4 +43,29 @@ Code for functions:
 Unit Tests:
 ```
 - net.burnandbury.sbstest.cards.ChallengeTwoStraightAndFlushTest
+```
+
+##Challenge #1.3
+Straightforward solve for this problem.
+
+Code for function:
+```
+- net.burnandbury.sbstest.water.WaterVolume
+```
+
+Unit Tests:
+```
+- net.burnandbury.sbstest.water.ChallengeThreeWaterVolumeTest
+```
+
+##Challenge #1.4
+I think the algorithm can be improved with recursion at cost of cycles, O(n^2) maybe? I kept it simple.
+Code for function:
+```
+- net.burnandbury.sbstest.stock.StockHistory
+```
+
+Unit Tests:
+```
+- net.burnandbury.sbstest.stock.ChallengeFourStockHistoryTest
 ```
