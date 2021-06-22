@@ -54,10 +54,10 @@ Unit Tests:
 I think the algorithm can be improved with recursion at cost of cycles, O(n^2) maybe? I kept it simple.
 Code for function:
 
-- [net.burnandbury.sbstest.stock.StockHistory]((src/main/java/net/burnandbury/sbstest/stock/StockHistory.java)
+- [net.burnandbury.sbstest.stock.StockHistory](src/main/java/net/burnandbury/sbstest/stock/StockHistory.java)
 
 
 Unit Tests:
 
-- [net.burnandbury.sbstest.stock.ChallengeFourStockHistoryTest]((src/test/java/net/burnandbury/sbstest/stock/ChallengeFourStockHistoryTest.java)
+- [net.burnandbury.sbstest.stock.ChallengeFourStockHistoryTest](src/test/java/net/burnandbury/sbstest/stock/ChallengeFourStockHistoryTest.java)
 
