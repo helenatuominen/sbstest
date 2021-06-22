@@ -11,6 +11,12 @@ import net.burnandbury.sbstest.cards.Deck;
  *
  */
 public class StandardDeck extends Deck {
+	
+	public enum Aces {
+		HIGH,
+		LOW,
+		BOTH
+	}
 
 	public StandardDeck() {
 		super(EnumSet.allOf(FrenchSuit.class), EnumSet.allOf(FrenchRanking.class));

@@ -8,10 +8,10 @@ import net.burnandbury.sbstest.cards.Suit;
  * @author Helena Tuominen
  */
 public enum FrenchSuit implements Suit {
-	CLUB("c"),
-	DIAMOND("d"),
-	HEART("h"),
-	SPADE("s");
+	CLUBS("c"),
+	DIAMONDS("d"),
+	HEARTS("h"),
+	SPADES("s");
 	
 	private final String textValue;
 	

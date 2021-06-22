@@ -6,13 +6,11 @@ package net.burnandbury.sbstest.cards;
  * @author Helena Tuominen
  * 
  */
-public record Card(Suit suit, Ranking rank) implements Comparable<Card> {
+public record Card(Ranking rank, Suit suit) implements Comparable<Card> {
 	
 	@Override
 	public int compareTo(Card card) {
-		int result; 
-		
-		result = this.suit.orderingValue().compareTo(card.suit.orderingValue());				
+		var result = this.suit.orderingValue().compareTo(card.suit.orderingValue());				
 		if (result == 0)
 			result = this.rank.orderingValue().compareTo(card.rank.orderingValue());
 		

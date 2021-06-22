@@ -7,3 +7,7 @@ enum
 enums
 unshuffled
 href
+straights
+hannnnd
+carrrrds
+heightmap

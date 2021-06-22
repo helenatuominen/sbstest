@@ -1,6 +1,7 @@
 package net.burnandbury.sbstest.cards;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
@@ -12,6 +13,11 @@ import java.util.List;
  */
 public class Hand extends ArrayList<Card> {
 
+	public Hand(Card[] cardArray) {
+		super();
+		this.addAll(Arrays.asList(cardArray));
+	}
+	
 	public Hand(List<Card> cards) {
 		super(cards);
 	}

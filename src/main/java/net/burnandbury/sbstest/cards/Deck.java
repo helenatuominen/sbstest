@@ -24,7 +24,7 @@ public class Deck extends ArrayList<Card> {
 	public Deck(Set<? extends Suit> suits, Set<? extends Ranking> ranks) {
 		suits.stream().forEach( suit -> {
 			ranks.stream().forEach( rank -> {
-				this.add(new Card(suit, rank));				
+				this.add(new Card(rank, suit));				
 			});
 		});
 	}
@@ -47,7 +47,7 @@ public class Deck extends ArrayList<Card> {
 		if (numberOfCards > this.size())
 			throw new NotEnoughCardsException(this, numberOfCards);
 		
-		Hand dealt = new Hand(this.subList(0, numberOfCards));
+		var dealt = new Hand(this.subList(0, numberOfCards));
 		this.removeAll(dealt);
 		return dealt;
 	}
