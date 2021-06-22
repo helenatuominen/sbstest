@@ -9,9 +9,9 @@ import org.junit.jupiter.api.Test;
 
 import net.burnandbury.sbstest.ConsoleLogging;
 
-class ChallengeFourStockHistory {
+public class ChallengeFourStockHistoryTest {
 
-	static final Logger logger = ConsoleLogging.getLogger(ChallengeFourStockHistory.class);
+	static final Logger logger = ConsoleLogging.getLogger(ChallengeFourStockHistoryTest.class);
 
 	void printInfo(int[] testData, String stockHistory) {
 		logger.info("""
@@ -21,7 +21,7 @@ class ChallengeFourStockHistory {
 	}
 	
 	@Test
-	void sellingStockWithSampleData() {
+	public void sellingStockWithSampleData() {
 		// Profit of 665
 		var testData = new int[] {
 				360, 255, 260, 230, 150, 100, 135, 265, 750, 460, 600
@@ -32,7 +32,7 @@ class ChallengeFourStockHistory {
 	}
 	
 	@Test
-	void neverBuyingStock() {
+	public void neverBuyingStock() {
 		// Profit of 0
 		var testData = new int[] {
 				20, 20, 20, 20, 20, 20, 20
@@ -43,7 +43,7 @@ class ChallengeFourStockHistory {
 	}
 
 	@Test
-	void tradingPlacesFrozenConcentratedOrangeJuiceMarketCrash() {
+	public void tradingPlacesFrozenConcentratedOrangeJuiceMarketCrash() {
 		// Profit of 130
 		var testData = new int[] {
 				20, 30, 25, 70, 100, 150, 20, 20, 20, 45, 50, 50
