@@ -4,16 +4,11 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import java.util.List;
-
 import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import net.burnandbury.sbstest.ConsoleLogging;
-import net.burnandbury.sbstest.cards.Deck;
-import net.burnandbury.sbstest.cards.Hand;
-import net.burnandbury.sbstest.cards.NotEnoughCardsException;
 
 /**
  * Test the deck methods.

@@ -7,8 +7,6 @@ import java.util.ArrayList;
 
 import org.junit.jupiter.api.Test;
 
-import net.burnandbury.sbstest.cards.Card;
-import net.burnandbury.sbstest.cards.Hand;
 import net.burnandbury.sbstest.cards.poker.FrenchRanking;
 import net.burnandbury.sbstest.cards.poker.FrenchSuit;
 import net.burnandbury.sbstest.cards.poker.MumMumMumMah;
@@ -40,7 +38,7 @@ class ChallengeTwoStraightAndFlush {
 			new Card(FrenchRanking.QUEEN, FrenchSuit.CLUBS)
 		};
 		var deadMans = new Hand(again);
-		assertFalse(MumMumMumMah.isStraight(deadMans), "Dead man's hand again.. shouldn't be straight. " + deadMans);
+		assertFalse(MumMumMumMah.isStraight(deadMans), "Read em and weep, Dead Man's Hand again.. shouldn't be straight. " + deadMans);
 
 		// Middling straight.
 		var andGamblingsForFools = new Card[] {
@@ -68,7 +66,7 @@ class ChallengeTwoStraightAndFlush {
 			new Card(FrenchRanking.TEN, FrenchSuit.DIAMONDS)
 		};
 		var theOnlyYhingYouSee = new Hand(youKnowItsGonnaBeTheAceOfSpades);
-		assertTrue(MumMumMumMah.isStraight(theOnlyYhingYouSee), "Aces high, read em and weep. " + theOnlyYhingYouSee);
+		assertTrue(MumMumMumMah.isStraight(theOnlyYhingYouSee), "Aces high. " + theOnlyYhingYouSee);
 	}
 
 }

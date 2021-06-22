@@ -4,8 +4,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-import net.burnandbury.sbstest.water.WaterVolume;
-
 class ChallengeThreeWaterVolumeTest {
 
 	@Test

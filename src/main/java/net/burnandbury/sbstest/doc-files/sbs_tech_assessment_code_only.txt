@@ -42,7 +42,8 @@ Write a function that when given an array formatted similarly as above, but with
 // -----------------------------------------------------------------------
 
 Question #1.4
-Using an array of numeric values representing the history of stock prices on a day-to-day basis, create a class that returns what would have been the best days to buy and then sell the stock at a profit.
+Using an array of numeric values representing the history of stock prices on a day-to-day basis, 
+create a class that returns what would have been the best days to buy and then sell the stock at a profit.
 • Only a single stock can be held at one time.
 • No stock is held at the start - e.g. the first action should be to buy stock.
 • Buy and sell as many times as required to maximise profits.
