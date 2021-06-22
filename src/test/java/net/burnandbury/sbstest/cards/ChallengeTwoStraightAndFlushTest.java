@@ -11,7 +11,7 @@ import net.burnandbury.sbstest.cards.poker.FrenchRanking;
 import net.burnandbury.sbstest.cards.poker.FrenchSuit;
 import net.burnandbury.sbstest.cards.poker.MumMumMumMah;
 
-class ChallengeTwoStraightAndFlush {
+public class ChallengeTwoStraightAndFlushTest {
 		
 	@Test
 	void doubleUporQuitDoubleStakeOrSplit() {

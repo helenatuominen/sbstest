@@ -6,7 +6,8 @@ import net.burnandbury.sbstest.cards.Card;
 import net.burnandbury.sbstest.cards.Hand;
 
 /**
- * Poker Face utility methods. 
+ * Lady Gaga's utility methods.
+ * 
  * @author Helena Tuominen
  *
  */
@@ -31,6 +32,11 @@ public class MumMumMumMah {
 						v[0] + v.length == v[v.length - 1] + 1;
 	}
 
+	/**
+	 * Checks if a given hand of cards contains a flush
+	 * @param h cards, what else?
+	 * @return result of stream, map, collect and regex on the first delicious byte
+	 */
 	public static boolean isFlush(Hand hand) {
 		String h = hand.stream().map(c -> c.suit().textValue()).collect(Collectors.joining());
 		return !h.matches("^" + new String( new byte[] { h.getBytes()[0] }));
