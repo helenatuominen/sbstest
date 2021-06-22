@@ -32,7 +32,7 @@ Not necessarily the most optimal, but I enjoyed writing it. Originally there wer
 of emulator and execute the code in BASIC. But that's too many characters, another time.
 
 Code for functions:
-- net.burnandbury.sbstest.cards.MumMumMumMah
+- [net.burnandbury.sbstest.cards.MumMumMumMah](src/main/java/net/burnandbury/sbstest/cards/MumMumMumMah.java)
 
 Unit Tests:
 - [net.burnandbury.sbstest.cards.ChallengeTwoStraightAndFlushTest](src/test/java/net/burnandbury/sbstest/cards/ChallengeTwoStraightAndFlushTest.java)
@@ -41,23 +41,23 @@ Unit Tests:
 Straightforward solve for this problem.
 
 Code for function:
-```
-- net.burnandbury.sbstest.water.WaterVolume
-```
+
+- [net.burnandbury.sbstest.water.WaterVolume](src/main/java/net/burnandbury/sbstest/water/WaterVolume.java)
+
 
 Unit Tests:
-```
-- net.burnandbury.sbstest.water.ChallengeThreeWaterVolumeTest
-```
+
+- [net.burnandbury.sbstest.water.ChallengeThreeWaterVolumeTest](src/test/java/net/burnandbury/sbstest/water/ChallengeThreeWaterVolumeTest.java)
+
 
 ## Challenge 1.4
 I think the algorithm can be improved with recursion at cost of cycles, O(n^2) maybe? I kept it simple.
 Code for function:
-```
-- net.burnandbury.sbstest.stock.StockHistory
-```
+
+- [net.burnandbury.sbstest.stock.StockHistory]((src/main/java/net/burnandbury/sbstest/stock/StockHistory.java)
+
 
 Unit Tests:
-```
-- net.burnandbury.sbstest.stock.ChallengeFourStockHistoryTest
-```
+
+- [net.burnandbury.sbstest.stock.ChallengeFourStockHistoryTest]((src/test/java/net/burnandbury/sbstest/stock/ChallengeFourStockHistoryTest.java)
+
