@@ -1,4 +1,4 @@
-##SBS Coding Questions, Java
+# SBS Coding Questions, Java
 Hi there! For development I've used the following tools, please make sure you have
 an appropriate build environment setup. The questions are present in this repo
  [sbs_tech_assessment_code_only.txt](src/main/java/net/burnandbury/sbstest/doc-files/sbs_tech_assessment_code_only.txt)
@@ -17,7 +17,7 @@ With the above installed correctly, building and executing the unit tests can be
 The code is executed by unit tests under corresponding packages in the /src/test/java directory,
 and all code is located under my package namespace of net.burnandbury.sbstest.*
 
-##Challenge 1.1
+## Challenge 1.1
 Code is a set of classes, records, interfaces and enums in an appropriate OOP breakdown of 
 a deck of cards. Abstractions were made to allow future flexibility of playing Uno or other card games.
 
@@ -31,7 +31,7 @@ Unit Tests:
 - net.burnandbury.sbstest.cards.ChallengeOneStandardDeckTest
 ```
 
-##Challenge #1.2
+## Challenge #1.2
 Not necessarily the most optimal, but I enjoyed writing it. Originally there were plans to embed some sort
 of emulator and execute the code in BASIC. But that's too many characters, another time.
 
@@ -45,7 +45,7 @@ Unit Tests:
 - net.burnandbury.sbstest.cards.ChallengeTwoStraightAndFlushTest
 ```
 
-##Challenge #1.3
+## Challenge #1.3
 Straightforward solve for this problem.
 
 Code for function:
@@ -58,7 +58,7 @@ Unit Tests:
 - net.burnandbury.sbstest.water.ChallengeThreeWaterVolumeTest
 ```
 
-##Challenge #1.4
+## Challenge #1.4
 I think the algorithm can be improved with recursion at cost of cycles, O(n^2) maybe? I kept it simple.
 Code for function:
 ```
