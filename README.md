@@ -31,7 +31,7 @@ Unit Tests:
 - net.burnandbury.sbstest.cards.ChallengeOneStandardDeckTest
 ```
 
-## Challenge #1.2
+## Challenge 1.2
 Not necessarily the most optimal, but I enjoyed writing it. Originally there were plans to embed some sort
 of emulator and execute the code in BASIC. But that's too many characters, another time.
 
@@ -45,7 +45,7 @@ Unit Tests:
 - net.burnandbury.sbstest.cards.ChallengeTwoStraightAndFlushTest
 ```
 
-## Challenge #1.3
+## Challenge 1.3
 Straightforward solve for this problem.
 
 Code for function:
@@ -58,7 +58,7 @@ Unit Tests:
 - net.burnandbury.sbstest.water.ChallengeThreeWaterVolumeTest
 ```
 
-## Challenge #1.4
+## Challenge 1.4
 I think the algorithm can be improved with recursion at cost of cycles, O(n^2) maybe? I kept it simple.
 Code for function:
 ```
