@@ -22,28 +22,20 @@ Code is a set of classes, records, interfaces and enums in an appropriate OOP br
 a deck of cards. Abstractions were made to allow future flexibility of playing Uno or other card games.
 
 Code:
-```
 - [net.burnandbury.sbstest.cards.*](src/main/java/net/burnandbury/sbstest/cards)
-```
 
 Unit Tests:
-```
 - [net.burnandbury.sbstest.cards.ChallengeOneStandardDeckTest](src/test/java/net/burnandbury/sbstest/cards/ChallengeOneStandardDeckTest.java)
-```
 
 ## Challenge 1.2
 Not necessarily the most optimal, but I enjoyed writing it. Originally there were plans to embed some sort
 of emulator and execute the code in BASIC. But that's too many characters, another time.
 
 Code for functions:
-```
 - net.burnandbury.sbstest.cards.MumMumMumMah
-```
 
 Unit Tests:
-```
 - [net.burnandbury.sbstest.cards.ChallengeTwoStraightAndFlushTest](src/test/java/net/burnandbury/sbstest/cards/ChallengeTwoStraightAndFlushTest.java)
-```
 
 ## Challenge 1.3
 Straightforward solve for this problem.
