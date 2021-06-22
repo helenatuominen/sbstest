@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import net.burnandbury.sbstest.water.WaterVolume;
 
-class WaterVolumeTest {
+class ChallengeThreeWaterVolumeTest {
 
 	@Test
 	void test() {
