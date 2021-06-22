@@ -32,7 +32,7 @@ Not necessarily the most optimal, but I enjoyed writing it. Originally there wer
 of emulator and execute the code in BASIC. But that's too many characters, another time.
 
 Code for functions:
-- [net.burnandbury.sbstest.cards.MumMumMumMah](src/main/java/net/burnandbury/sbstest/cards/MumMumMumMah.java)
+- [net.burnandbury.sbstest.cards.poker.MumMumMumMah](src/main/java/net/burnandbury/sbstest/cards/poker/MumMumMumMah.java)
 
 Unit Tests:
 - [net.burnandbury.sbstest.cards.ChallengeTwoStraightAndFlushTest](src/test/java/net/burnandbury/sbstest/cards/ChallengeTwoStraightAndFlushTest.java)
