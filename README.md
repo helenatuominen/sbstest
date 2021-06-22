@@ -23,12 +23,12 @@ a deck of cards. Abstractions were made to allow future flexibility of playing U
 
 Code:
 ```
-- net.burnandbury.sbstest.cards.*
+- [net.burnandbury.sbstest.cards.*](src/main/java/net/burnandbury/sbstest/cards)
 ```
 
 Unit Tests:
 ```
-- net.burnandbury.sbstest.cards.ChallengeOneStandardDeckTest
+- [net.burnandbury.sbstest.cards.ChallengeOneStandardDeckTest](src/test/java/net/burnandbury/sbstest/cards/ChallengeOneStandardDeckTest.java)
 ```
 
 ## Challenge 1.2
@@ -42,7 +42,7 @@ Code for functions:
 
 Unit Tests:
 ```
-- net.burnandbury.sbstest.cards.ChallengeTwoStraightAndFlushTest
+- [net.burnandbury.sbstest.cards.ChallengeTwoStraightAndFlushTest](src/test/java/net/burnandbury/sbstest/cards/ChallengeTwoStraightAndFlushTest.java)
 ```
 
 ## Challenge 1.3
