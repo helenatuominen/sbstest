@@ -7,6 +7,8 @@ import java.util.ArrayList;
 
 import org.junit.jupiter.api.Test;
 
+import net.burnandbury.sbstest.cards.Card;
+import net.burnandbury.sbstest.cards.Hand;
 import net.burnandbury.sbstest.cards.poker.FrenchRanking;
 import net.burnandbury.sbstest.cards.poker.FrenchSuit;
 import net.burnandbury.sbstest.cards.poker.MumMumMumMah;

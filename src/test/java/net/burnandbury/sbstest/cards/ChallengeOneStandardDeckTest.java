@@ -11,6 +11,9 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import net.burnandbury.sbstest.ConsoleLogging;
+import net.burnandbury.sbstest.cards.Deck;
+import net.burnandbury.sbstest.cards.Hand;
+import net.burnandbury.sbstest.cards.NotEnoughCardsException;
 
 /**
  * Test the deck methods.
@@ -28,6 +31,13 @@ public class ChallengeOneStandardDeckTest {
 		deck = Deck.createDefaultDeck();
 	}
 	
+	/**
+	 * Create a function that will generate a random hand of 5 standard playing
+	 * cards from a single deck of cards. The hand of cards must be returned in the
+	 * format: <pre> 
+	 * array('2c', '6d', 'as', 'jh', '10c');
+	 * </pre>
+	 */
 	@Test
 	public void testCleanDeckContents() {
 		logger.info("Testing a new clean deck.");
@@ -41,6 +51,9 @@ public class ChallengeOneStandardDeckTest {
 				"The is unshuffled and the toString method behaves correctly.");
 	}
 	
+	/**
+	 * Confirm the deck returns a different set of results when shuffled from new.
+	 */
 	@Test
 	public void testShuffledDeckContents() {
 		

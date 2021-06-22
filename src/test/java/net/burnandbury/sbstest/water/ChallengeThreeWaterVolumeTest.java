@@ -1,4 +1,4 @@
-package net.burnandbury.sbstest;
+package net.burnandbury.sbstest.water;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
